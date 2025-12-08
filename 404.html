@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="7; url=https://docs.sds.shef.ac.uk/">
+    <title>Redirecting to docs.sds.shef.ac.uk</title>
+    <link rel="canonical" href="https://docs.sds.shef.ac.uk/">
+</head>
+    <script>
+        let fragment = window.location.hash;
+        let redirectUrl = `https://docs.sds.shef.ac.uk/${fragment}`;
+        setTimeout(function() {
+            window.location=redirectUrl
+        }, 5000);
+        document.getElementById("dest").setAttribute("href", redirectUrl);
+    </script>
+</html>
